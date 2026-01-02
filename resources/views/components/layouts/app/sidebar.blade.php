@@ -28,9 +28,9 @@
 
             <flux:navlist variant="outline">
                 <flux:navlist.group :heading="__('Accounts Management')" class="grid">
-                    <flux:navlist.item icon="user-group" :href="route('admin.accounts.index')" :current="request()->routeIs('admin.accounts.index')" wire:navigate>{{ __('Manage Hosts') }}</flux:navlist.item>
-                    <flux:navlist.item icon="user" :href="route('admin.accounts.index')" :current="request()->routeIs('admin.accounts.index')" wire:navigate>{{ __('Manager Coaches') }}</flux:navlist.item>
-                    <flux:navlist.item icon="users" :href="route('admin.accounts.index')" :current="request()->routeIs('admin.accounts.index')" wire:navigate>{{ __('Manager Staff') }}</flux:navlist.item>
+                    <flux:navlist.item icon="user-group" :href="route('admin.accounts.index')" :current="request()->routeIs('admin.accounts.index')" wire:navigate>{{ __('Hosts') }}</flux:navlist.item>
+                    <flux:navlist.item icon="user" :href="route('admin.accounts.index')" :current="request()->routeIs('admin.accounts.index')" wire:navigate>{{ __('Coaches') }}</flux:navlist.item>
+                    <flux:navlist.item icon="users" :href="route('admin.accounts.index')" :current="request()->routeIs('admin.accounts.index')" wire:navigate>{{ __('Staff') }}</flux:navlist.item>
                 </flux:navlist.group>
             </flux:navlist>
 

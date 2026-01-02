@@ -8,7 +8,7 @@ use Illuminate\View\View;
 class CampController extends Controller
 
 {
-    public function index(): View
+    public function index()
     {
         return view('admin.camps.index');
     }

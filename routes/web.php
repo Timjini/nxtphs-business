@@ -3,7 +3,7 @@
 use App\Http\Controllers\Admin\AccountController;
 use App\Http\Controllers\Admin\BillingController;
 use App\Http\Controllers\Admin\NotificationHubController;
-use App\Http\Controllers\API\Camp\CampController;
+use App\Http\Controllers\Admin\CampController;
 use Illuminate\Support\Facades\Route;
 use Laravel\Fortify\Features;
 use Livewire\Volt\Volt;
